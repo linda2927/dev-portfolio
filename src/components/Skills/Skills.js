@@ -33,7 +33,7 @@ import {
     Postgresql,
 } from '@icons-pack/react-simple-icons';
 
-const Skills = (props, ref) => {
+const skills = (props, ref) => {
     return (
         <section
             className={classes.skills}
@@ -88,5 +88,5 @@ const Skills = (props, ref) => {
     );
 };
 
-const ForwardRefSkills = React.forwardRef(Skills);
-export default ForwardRefSkills;
+const Skills = React.forwardRef(skills);
+export default Skills;

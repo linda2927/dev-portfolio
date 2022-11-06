@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './Home.module.css';
 
-const Home = (props, sectionRefs) => {
+const home = (props, sectionRefs) => {
     return (
         <section
             className={classes.home}
@@ -13,6 +13,6 @@ const Home = (props, sectionRefs) => {
     );
 };
 
-const ForwardRefHome = React.forwardRef(Home);
+const Home = React.forwardRef(home);
 
-export default ForwardRefHome;
+export default Home;

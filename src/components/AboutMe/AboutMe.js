@@ -7,7 +7,7 @@ import ExtraInfo from './ExtraInfo';
 import Banner from '../UI/Banner';
 import Hashtag from './Hashtag';
 
-const AboutMe = (props, ref) => {
+const aboutMe = (props, ref) => {
     const location = useLocation();
     location.hash = '#about-me';
 
@@ -55,12 +55,12 @@ const AboutMe = (props, ref) => {
                 title="생각의 기록 ✍️"
                 body="개발자 지망생으로서, 생각하기와 글쓰기를
                     좋아하는 대학생으로서 기록한 생각의 흐름들."
-                url="https://earthlyz9.notion.site/a177eed616eb4bab84a20e295680fcc4?v=5cf73dddce0c40f8b405d249e4a1a466"
+                url="https://earthlyz9-dev.oopy.io/thoughts"
             />
         </section>
     );
 };
 
-const ForwardRefAboutMe = React.forwardRef(AboutMe);
+const AboutMe = React.forwardRef(aboutMe);
 
-export default ForwardRefAboutMe;
+export default AboutMe;

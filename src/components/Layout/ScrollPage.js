@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useRef } from 'react';
 import classes from './ScrollPage.module.css';
-import ForwardRefHome from '../Home/Home';
-import ForwardRefAboutMe from '../AboutMe/AboutMe';
-import ForwardRefSkills from '../Skills/Skills';
-import ForwardRefProjects from '../Projects/Projects';
-import ForwardRefStudy from '../Study/Study';
+import Home from '../Home/Home';
+import AboutMe from '../AboutMe/AboutMe';
+import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
+import Study from '../Study/Study';
 
 const ScrollPage = () => {
     const sectionRefs = useRef([]);
@@ -59,11 +59,11 @@ const ScrollPage = () => {
             className={`${classes.wrapper} disable-scrollbars`}
             // onScroll={test}
         >
-            <ForwardRefHome sectionId="home" ref={sectionRefs} />
-            <ForwardRefAboutMe sectionId="about-me" ref={sectionRefs} />
-            <ForwardRefSkills sectionId="skills" ref={sectionRefs} />
-            <ForwardRefProjects sectionId="projects" ref={sectionRefs} />
-            <ForwardRefStudy
+            <Home sectionId="home" ref={sectionRefs} />
+            <AboutMe sectionId="about-me" ref={sectionRefs} />
+            <Skills sectionId="skills" ref={sectionRefs} />
+            <Projects sectionId="projects" ref={sectionRefs} />
+            <Study
                 sectionId="study"
                 startSimulation={startSimulation}
                 ref={sectionRefs}

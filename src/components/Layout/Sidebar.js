@@ -10,6 +10,7 @@ import {
 } from 'react-icons/fc';
 import { GrMail } from 'react-icons/gr';
 import { FaGithubAlt } from 'react-icons/fa';
+import { SiLivejournal } from 'react-icons/si';
 import classes from './Sidebar.module.css';
 import { IconContext } from 'react-icons';
 
@@ -21,17 +22,30 @@ const Sidebar = (props) => {
                 <div className={classes['profile-img']}>
                     <img src="img/tiny.png" alt={'profileImage'} />
                 </div>
-                <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/linda2927"
-                >
-                    <IconContext.Provider value={{ size: 30 }}>
-                        <>
-                            <FaGithubAlt />
-                        </>
-                    </IconContext.Provider>
-                </a>
+                <div className={classes.icons}>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://github.com/linda2927"
+                    >
+                        <IconContext.Provider value={{ size: 28 }}>
+                            <>
+                                <FaGithubAlt />
+                            </>
+                        </IconContext.Provider>
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href="https://earthlyz9-dev.oopy.io"
+                    >
+                        <IconContext.Provider value={{ size: 25 }}>
+                            <>
+                                <SiLivejournal />
+                            </>
+                        </IconContext.Provider>
+                    </a>
+                </div>
             </div>
             <div className={classes.items}>
                 <NavHashLink
