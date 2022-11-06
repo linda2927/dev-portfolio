@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd8b0d4b.css",
+    "main.js": "/static/js/main.810a513d.js",
+    "static/media/ChosunGu.TTF": "/static/media/ChosunGu.dfc069325b398b5d9e43.TTF",
+    "static/media/SuncheonB.ttf": "/static/media/SuncheonB.474f1b82410e6de9e1f6.ttf",
+    "static/media/SuncheonR.ttf": "/static/media/SuncheonR.ad63959132d048ee7f35.ttf",
+    "static/media/esamanru OTF Bold.otf": "/static/media/esamanru OTF Bold.ff762617ead545736c7d.otf",
+    "static/media/esamanru OTF Light.otf": "/static/media/esamanru OTF Light.7b9cbfd88431effbef7c.otf",
+    "index.html": "/index.html",
+    "main.cd8b0d4b.css.map": "/static/css/main.cd8b0d4b.css.map",
+    "main.810a513d.js.map": "/static/js/main.810a513d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8b0d4b.css",
+    "static/js/main.810a513d.js"
+  ]
+}
