@@ -1,0 +1,25 @@
+.home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+@keyframes fadein{
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+
+}
+
+.title {
+    animation: fadein 4s ease-in-out
+}
+

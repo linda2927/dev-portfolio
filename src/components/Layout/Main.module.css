@@ -1,0 +1,46 @@
+.main {
+    border-radius: 3rem;
+    background-color: white;
+    height: 70%;
+    width: 70%;
+    margin: 1rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 2% 1%;
+}
+
+.main-mobile {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.top-base {
+    border-radius: 100%;
+    padding: 0.5rem;
+    background-color: #528076;
+    float: right;
+    position: absolute;
+    bottom: 2rem;
+    z-index: 500;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.top-pc {
+    right: 2rem;
+}
+
+.top-mobile {
+    left: 2rem
+}
+
+.top-base:hover {
+    background-color: #a3d7c0;
+}
+
+.top-base svg {
+    color: black;
+}

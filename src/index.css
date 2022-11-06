@@ -1,0 +1,77 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #e5f9f8;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'chosun', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+
+.whitespace-pre-line {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.markdown-h1-tag {
+  margin-bottom: 1rem;
+}
+
+.number {
+  color: black;
+  font-weight: 900;
+  font-family: 'suncheon-bold', sans-serif;
+}
+
+.slide-in {
+  animation: slide-in 0.5s forwards;
+  -webkit-animation: slide-in 0.5s forwards;
+}
+
+.profile-category {
+  color:	#77a8a4;
+  font-weight: 900;
+  font-family: 'suncheon-bold', sans-serif;
+}
+
+blockquote {
+  background-color: rgb(241, 241, 239);
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding: 1rem;
+}
+
+@keyframes slide-in {
+  100% { transform: translateX(0%); }
+}
+
+@-webkit-keyframes slide-in {
+  100% { -webkit-transform: translateX(0%); }
+}

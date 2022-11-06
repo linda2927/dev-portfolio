@@ -1,0 +1,17 @@
+.vertical-timeline-element-date {
+    color: black;
+    margin: 0 0.5rem;
+}
+
+.vertical-timeline-element-subtitle {
+    margin-block-start: 0.5rem;
+}
+
+.vertical-timeline-element-content:hover {
+    cursor: pointer;
+}
+
+.vertical-timeline-element-date {
+    color: white;
+}
+

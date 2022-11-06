@@ -1,0 +1,11 @@
+.card {
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px 3px rgba(119,168,164, .2);
+    border: 1px solid rgba(119,168,164, .2);
+    display: inline-block;
+    padding: 0.5rem;
+    width: fit-content;
+    max-width: 95%;
+    flex-direction: row;
+    height: auto;
+}

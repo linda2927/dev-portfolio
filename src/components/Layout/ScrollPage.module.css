@@ -1,0 +1,20 @@
+.wrapper {
+    overflow-y: scroll;
+    height: 100%;
+    display: block;
+    padding: 0 1% 0 2%;
+    overflow-x: hidden;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 7px;  /* 스크롤바의 너비 */
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background: #cfedea; /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+
+/*.wrapper::-webkit-scrollbar-track {*/
+/*    background: transparent;  !*스크롤바 뒷 배경 색상*!*/
+/*}*/

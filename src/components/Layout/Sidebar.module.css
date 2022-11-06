@@ -1,0 +1,107 @@
+.nav {
+    width: 17rem;
+    height: 75%;
+    background-color: #a3d7c0;
+    border-radius: 3rem;
+    margin-right: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'esamanru-light', sans-serif;
+    font-size: 1rem;
+    overflow-y: scroll;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem
+}
+
+.profile div {
+    width: 70%;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 70%;
+}
+
+.profile-img img {
+    width: 100%;
+    border-radius: 40%;
+}
+
+.profile a {
+    width: fit-content;
+    margin: 0.5rem 0;
+    color: black;
+}
+
+.items {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.items svg {
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.items a {
+    margin: 0.5rem 0;
+    border-radius: 1rem;
+    padding: 0.3rem 0;
+    justify-content: center;
+    align-content: center;
+    display: table;
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    margin: 1rem auto 1rem auto;
+    border-radius: 5rem;
+    border: solid #528076;
+    padding: 0.5rem 0;
+    width: 60%;
+    display: flex;
+    flex-grow: unset;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.contact:hover {
+    cursor: pointer;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact svg {
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.menu-item {
+    background-color: #77a8a4;
+}
+
+.nav::-webkit-scrollbar {
+    width: 7px;  /* 스크롤바의 너비 */
+}
+
+.nav::-webkit-scrollbar-thumb {
+    background: #cfedea; /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+

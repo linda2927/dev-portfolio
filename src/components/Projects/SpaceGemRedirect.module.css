@@ -1,0 +1,19 @@
+.space-gem-btn button {
+    width: 80%;
+    padding: 0.5rem;
+    background-color: #a3d7c0;
+    color: black;
+    border-radius: 1rem;
+    border-width: 0;
+    margin-top: 0.5rem;
+}
+
+.space-gem-btn button:hover {
+    background-color: #133a1b;
+    color: white;
+}
+
+.space-gem-btn {
+    width: 100%;
+    text-align: center;
+}

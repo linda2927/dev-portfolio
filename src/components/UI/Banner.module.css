@@ -1,0 +1,14 @@
+.banner {
+    width: 96%;
+    background-color: rgb(177, 218, 204);
+    height: fit-content;
+    margin: 1rem 0;
+    padding: 1% 2%;
+    border-radius: 1rem;
+}
+
+.banner p {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+    line-height: 1.3rem;
+}

@@ -1,0 +1,7 @@
+.skills {
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+    display: inline-block;
+    overflow-x: hidden;
+}

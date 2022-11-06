@@ -1,0 +1,22 @@
+.profile-info {
+    margin-right: 5%;
+    width: 45%
+}
+
+.profile-info div {
+    height: fit-content;
+}
+
+.profile-info div p {
+    display: inline-block;
+    margin-inline-end: 1rem;
+    margin-block-start: 0.4rem;
+    margin-block-end: 0.4rem;
+    font-size: 1rem;
+}
+
+.category {
+    color:	#77a8a4;
+    font-weight: 900;
+    font-family: 'suncheon-bold', sans-serif;
+}

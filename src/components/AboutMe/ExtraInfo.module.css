@@ -1,0 +1,22 @@
+.extra {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.category {
+    color:	#77a8a4;
+    font-weight: 900;
+    font-family: 'suncheon-bold', sans-serif;
+}
+
+.education {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.certificates {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}

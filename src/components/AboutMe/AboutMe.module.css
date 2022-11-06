@@ -1,0 +1,71 @@
+.about-me {
+    width: 100%;
+    display: inline-block;
+}
+
+.summary {
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileInfo {
+    width: 50%;
+}
+
+.intro {
+    width: 100%;
+    margin: 1.5rem 0;
+    line-height: 1.5;
+}
+
+.tags {
+   width: 100%;
+}
+
+.likes {
+    margin-inline-end: 1rem;
+    margin-block-start: 0.4rem;
+    margin-block-end: 0.4rem;
+}
+
+.banner {
+    width: 96%;
+    background-color: #d6ffb0;
+    height: fit-content;
+    margin: 1rem 0;
+    padding: 1% 2%;
+    border-radius: 1rem;
+}
+
+.banner p {
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+}
+
+.link-box {
+    border: 1px solid black;
+    height: 30px;
+    width: fit-content;
+    padding: 0.2rem 0.5rem;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.link-box svg {
+    display: inline-block;
+    margin-right: 0.3rem;
+}
+
+.link-text {
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    line-height: 30px;
+    display: inline-block;
+}

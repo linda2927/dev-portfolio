@@ -1,0 +1,20 @@
+.toggle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: #528076;
+    float: right;
+    text-align: center;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    border: none;
+    z-index: 1000;
+}
+
+.toggle svg {
+    margin: auto;
+    vertical-align: center;
+    color: white;
+}
