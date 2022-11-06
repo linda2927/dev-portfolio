@@ -41,6 +41,15 @@
     color: black;
 }
 
+.icons {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.icons a {
+    margin: 0 0.8rem;
+}
+
 .items {
     width: 80%;
     text-align: center;

@@ -4,7 +4,7 @@ import Title from '../UI/Title';
 import ProjectsTimeline from './ProjectsTimeline';
 import { HiOutlineUserGroup, HiOutlineUser } from 'react-icons/hi';
 
-const Projects = (props, ref) => {
+const projects = (props, ref) => {
     const projects = [
         {
             path: 'bruteforce',
@@ -71,5 +71,5 @@ const Projects = (props, ref) => {
     );
 };
 
-const ForwardRefProjects = React.forwardRef(Projects);
-export default ForwardRefProjects;
+const Projects = React.forwardRef(projects);
+export default Projects;

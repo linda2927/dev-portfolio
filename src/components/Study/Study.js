@@ -6,7 +6,7 @@ import './bubbleChart.css';
 import { studyData } from '../../data';
 import Banner from '../UI/Banner';
 
-const Study = (props, ref) => {
+const study = (props, ref) => {
     let svg = null;
     let bubbles = null;
     let labels = null;
@@ -141,12 +141,12 @@ const Study = (props, ref) => {
             <Banner
                 title="Earthlyz9 Dev Notes 📒"
                 body="나를 위해 꾸준히 기록합니다. 하나의 큰 도서관이 될 때까지!"
-                url="https://earthlyz9.notion.site/Earthlyz9-Dev-bc50e2c2a5e440e5a1836c9ff76e7cd3"
+                url="https://earthlyz9-dev.oopy.io"
             />
         </section>
     );
 };
 
-const ForwardRefStudy = React.forwardRef(Study);
+const Study = React.forwardRef(study);
 
-export default ForwardRefStudy;
+export default Study;
