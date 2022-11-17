@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import classes from './Projects.module.css';
 import Title from '../UI/Title';
 import ProjectsTimeline from './ProjectsTimeline';
 import { HiOutlineUserGroup, HiOutlineUser } from 'react-icons/hi';
 
 const projects = (props, ref) => {
-    const projects = [
+    const projects = useMemo(()=> [
         {
             path: 'bruteforce',
             title: '개발자의 길이 열리다, Bruteforce',
@@ -50,14 +50,14 @@ const projects = (props, ref) => {
             filename: 'SpaceGem.md',
             subtitle: 'Unity 로 배우는 C#',
             description:
-                '질병관리청 국립보건연구원 주관 ICAAN 프로젝트의 어드민 페이지와 피험자 웹앱 구현을 도맡다!',
+                'C# 과 유니티로 만들어보는 레트로 캐주얼 게임 Space Gem',
             date: '2022.10',
             icon: <HiOutlineUser />,
             color: '#2fd8e8',
             textColor: 'black',
             complete: true,
         },
-    ];
+    ], []);
 
     return (
         <section

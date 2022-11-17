@@ -52,7 +52,7 @@ const study = (props, ref) => {
         // use map() to convert raw data into node data
         const myNodes = rawData.map((d) => ({
             ...d,
-            radius: radiusScale(+d.size),
+            radius: radiusScale(+d.size * 0.9),
             size: +d.size,
             x: Math.random() * 900,
             y: Math.random() * 800,
@@ -139,7 +139,7 @@ const study = (props, ref) => {
             <Title title={'Study'} className={classes.title} />
             <div id="bubble" style={{ textAlign: 'center' }}></div>
             <Banner
-                title="Earthlyz9 Dev Notes 📒"
+                title="Earthlyz9 Dev Library 📚"
                 body="나를 위해 꾸준히 기록합니다. 하나의 큰 도서관이 될 때까지!"
                 url="https://earthlyz9-dev.oopy.io"
             />

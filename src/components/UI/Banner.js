@@ -6,19 +6,18 @@ import classes from './Banner.module.css';
 const Banner = (props) => {
     return (
         <div className={classes.banner}>
-            <p>
-                <strong>{props.title}</strong>
-            </p>
-            <p>{props.body}</p>
             <div
                 style={{
                     width: '100%',
                     textAlign: 'right',
                     height: '30px',
                     display: 'flex',
-                    justifyContent: 'end',
+                    justifyContent: 'space-between',
                 }}
             >
+                <p>
+                    <strong>{props.title}</strong>
+                </p>
                 <a
                     href={props.url}
                     target="_blank"
@@ -32,6 +31,7 @@ const Banner = (props) => {
                     </IconContext.Provider>
                 </a>
             </div>
+            <p>{props.body}</p>
         </div>
     );
 };
