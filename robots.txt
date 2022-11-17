@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://earthlyz9-dev.site/sitemap.xml
