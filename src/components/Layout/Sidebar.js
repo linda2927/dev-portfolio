@@ -20,7 +20,7 @@ const Sidebar = (props) => {
         <nav className={`${classes.nav} ${props.className && props.className}`}>
             <div className={classes.profile}>
                 <div className={classes['profile-img']}>
-                    <img src="img/tiny.png" alt={'profileImage'} />
+                    <img src="/img/tiny.png" alt={'profileImage'} />
                 </div>
                 <div className={classes.icons}>
                     <a

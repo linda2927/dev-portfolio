@@ -57,6 +57,19 @@ const projects = (props, ref) => {
             textColor: 'black',
             complete: true,
         },
+        {
+            path: 'fruit-ninja',
+            title: 'Fruit Ninja 3D',
+            filename: 'FruitNinja.md',
+            subtitle: 'Unity 로 배우는 C# 2',
+            description:
+                'Fruit Ninja 게임을 벤치마킹한 3D Hand Recognition 버전의 새로운 3D 게임',
+            date: '2022.12',
+            icon: <HiOutlineUserGroup />,
+            color: '#a3d28e',
+            textColor: 'black',
+            complete: true,
+        },
     ], []);
 
     return (

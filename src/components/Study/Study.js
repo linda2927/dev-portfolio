@@ -16,14 +16,14 @@ const study = (props, ref) => {
         return Math.pow(d.radius, 2.0) * 0.01;
     }
 
-    const createSimulation = (width, height, forceStrength = 0.03) => {
+    const createSimulation = (width, height, forceStrength = 0.01) => {
         const centre = { x: width / 2, y: height / 2 };
 
         // create a force simulation and add forces to it
         const simulation = d3
             .forceSimulation()
             .force('charge', d3.forceManyBody().strength(charge))
-            // .force('center', d3.forceCenter(centre.x, centre.y))
+            .force('center', d3.forceCenter(centre.x, centre.y))
             .force('x', d3.forceX().strength(forceStrength).x(centre.x))
             .force('y', d3.forceY().strength(forceStrength).y(centre.y))
             .force(

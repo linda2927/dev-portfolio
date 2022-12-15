@@ -1,17 +1,17 @@
 .vertical-timeline-element-date {
-    color: black;
-    margin: 0 0.5rem;
+    color: rgba(10, 10, 10, 0.5) !important;
+    margin: 0.5rem 0.3rem 0 0.3rem !important;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.2rem !important;
+    float: right !important;
 }
 
 .vertical-timeline-element-subtitle {
-    margin-block-start: 0.5rem;
+    margin-block-start: 0.5rem !important;
 }
 
 .vertical-timeline-element-content:hover {
-    cursor: pointer;
-}
-
-.vertical-timeline-element-date {
-    color: white;
+    cursor: pointer !important;
 }
 
