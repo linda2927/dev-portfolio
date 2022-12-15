@@ -5,21 +5,10 @@ import { useLocation } from 'react-router-dom';
 import React from 'react';
 import ExtraInfo from './ExtraInfo';
 import Banner from '../UI/Banner';
-import Hashtag from './Hashtag';
 
 const aboutMe = (props, ref) => {
     const location = useLocation();
     location.hash = '#about-me';
-
-    const likes = [
-        'Coding 💻',
-        'Futsal ⚽️',
-        'Cats 🐱',
-        'Coffee ☕️',
-        'Journals ✏️',
-        'Movies 🎬',
-        'Music 🎶',
-    ];
 
     return (
         <section
@@ -39,17 +28,7 @@ const aboutMe = (props, ref) => {
                 주로 Python 과 Node.js 기반 백엔드 프레임워크를 다루고 있으나
                 재미있어 보이는 것이라면 무엇이든 해보는 호기심 많은 사람입니다.
             </div>
-            <div className={classes.profile}>
-                <ProfileInfo />
-                <div style={{ width: '50%' }}>
-                    <p className={`profile-category ${classes.likes}`}>Likes</p>
-                    <div className={classes.tags}>
-                        {likes.map((item, index) => (
-                            <Hashtag key={index} text={item} />
-                        ))}
-                    </div>
-                </div>
-            </div>
+            <ProfileInfo />
             <ExtraInfo />
             <Banner
                 title="생각의 기록 ✍️"

@@ -5,7 +5,7 @@ import Sidebar from './components/Layout/Sidebar';
 import SidebarToggle from './components/Layout/SidebarToggle';
 import Main from './components/Layout/Main';
 import Drawer from './components/UI/Drawer';
-import { AiOutlineCopyrightCircle } from 'react-icons/ai';
+import Footer from './components/Layout/Footer';
 
 function App() {
     const [innerWidth, setInnerWidth] = useState(window.visualViewport.width);
@@ -58,9 +58,7 @@ function App() {
 
                 <Main isMobile={isMobile} />
             </div>
-            <div className={classes.copyright}>
-                <AiOutlineCopyrightCircle /> <p>2022 All rights reserved.</p>
-            </div>
+             {!isMobile && <Footer />}
         </BrowserRouter>
     );
 }

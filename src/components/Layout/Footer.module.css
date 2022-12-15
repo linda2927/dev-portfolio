@@ -1,0 +1,28 @@
+.copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    display: table;
+    margin: auto;
+    position: fixed;
+    bottom: 2%;
+    vertical-align: middle;
+}
+
+.copyright p {
+    display: inline-block;
+    margin-inline-start: 0.4rem;
+}
+
+@media (max-width: 1024px) {
+    .copyright {
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        display: table;
+        /*margin: auto;*/
+        position: static !important;
+        bottom: 0 !important;
+        margin-bottom: 0.5rem;
+    }
+}

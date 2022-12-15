@@ -1,6 +1,12 @@
 .extra {
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    margin: 1rem 0;
+    margin-top: 2rem;
+}
+
+.col {
+    width: 50%;
 }
 
 .category {
@@ -9,14 +15,11 @@
     font-family: 'suncheon-bold', sans-serif;
 }
 
-.education {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
-}
-
-.certificates {
-    display: inline-block;
-    width: 50%;
-    vertical-align: top;
+@media (max-width: 768px) {
+    .extra {
+        display: block;
+    }
+    .col {
+        width: 100%;
+    }
 }

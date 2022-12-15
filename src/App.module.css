@@ -25,17 +25,6 @@ h1 {
     margin-block-end: 0;
 }
 
-
-.copyright {
-    width: 100%;
-    text-align: center;
-    font-size: 0.9rem;
-    display: table;
-    margin: auto;
-    position: absolute;
-    bottom: 1rem;
-}
-
 .copyright svg {
     vertical-align: middle;
     display: inline-block;

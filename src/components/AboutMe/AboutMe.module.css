@@ -27,12 +27,6 @@
    width: 100%;
 }
 
-.likes {
-    margin-inline-end: 1rem;
-    margin-block-start: 0.4rem;
-    margin-block-end: 0.4rem;
-}
-
 .banner {
     width: 96%;
     background-color: #d6ffb0;

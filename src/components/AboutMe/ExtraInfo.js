@@ -3,8 +3,8 @@ import classes from './ExtraInfo.module.css';
 
 const ExtraInfo = () => {
     return (
-        <div className={classes.extra}>
-            <div className={classes.education}>
+        <section className={classes.extra}>
+            <div className={classes.col}>
                 <p className="profile-category">Education</p>
                 <ul>
                     <li>
@@ -25,7 +25,7 @@ const ExtraInfo = () => {
                     </li>
                 </ul>
             </div>
-            <div className={classes.certificates}>
+            <div className={classes.col}>
                 <p className="profile-category">Certificates</p>
                 <ul>
                     <li>
@@ -49,7 +49,7 @@ const ExtraInfo = () => {
                     {/* </li> */}
                 </ul>
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -6,6 +6,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Project from '../Projects/Project';
 import ScrollPage from './ScrollPage';
+import Footer from './Footer';
 
 const Main = (props) => {
     const mainClasses = !props.isMobile ? classes.main : classes['main-mobile'];
@@ -28,6 +29,7 @@ const Main = (props) => {
                     </>
                 </IconContext.Provider>
             </HashLink>
+            {props.isMobile && <Footer />}
         </div>
     );
 };
