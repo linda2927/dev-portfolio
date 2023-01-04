@@ -35,14 +35,15 @@ const projects = (props, ref) => {
         {
             path: 'icaan',
             title: 'ICAAN 프로젝트의 SW 연구원',
+            filename: 'ICAAN.md',
             subtitle: '설계부터 배포까지, React + Node.js + MongoAtlas',
             description:
                 '질병관리청 국립보건연구원 주관 ICAAN 프로젝트의 어드민 페이지와 피험자 웹앱 구현을 도맡다!',
-            date: '2022.05 ~ present',
+            date: '2022.05 ~ 2022.12',
             icon: <HiOutlineUserGroup />,
             color: '#FFBF36',
             textColor: 'black',
-            complete: false,
+            complete: true,
         },
         {
             path: 'space-gem',
@@ -70,6 +71,33 @@ const projects = (props, ref) => {
             textColor: 'black',
             complete: true,
         },
+        {
+            path: 'bistime',
+            title: '우리의 시간을 소중하게, BisTime',
+            filename: 'BisTime.md',
+            subtitle: '비는 시간이 언제인가요?',
+            // description:
+            //     '모임 시간을 똑똑하게, 간단한 모임부터 팀의 효율적인 일정 관리까지 책임집니다!',
+            description: '~ 진행중 ~',
+            date: '2023.01 ~',
+            icon: <HiOutlineUserGroup />,
+            color: '#6db49b',
+            textColor: 'black',
+            complete: false,
+        },
+        {
+            path: 'chatbox',
+            title: '누구나 간편하게, ChatBox',
+            filename: 'ChatBox.md',
+            subtitle: '~ 진행중 ~',
+            description:
+                '~ 진행중 ~',
+            date: '2023.01 ~',
+            icon: <HiOutlineUserGroup />,
+            color: '#2b0e47',
+            textColor: 'white',
+            complete: false,
+        }
     ], []);
 
     return (

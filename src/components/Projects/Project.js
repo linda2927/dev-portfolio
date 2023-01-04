@@ -82,7 +82,7 @@ const Project = () => {
                         if (props.children[0] === '깃헙 레포 바로가기') {
                             return <a {...props} className="markdown-a-link" />;
                         } else {
-                            return <a {...props} />;
+                            return <a {...props} className="markdown-a-link" />;
                         }
                     },
                     h1: ({ node, ...props }) => {
